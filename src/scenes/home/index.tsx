@@ -68,9 +68,10 @@ const Home = ({ setSelectedPage }: Props) => {
                 <button className="mt-3 mr-2 px-3.5 py-1.5 rounded-full border-2 border-black-75 text-black-75 hover:bg-brown-50 hover:white-100"
                 onClick={() => {
                     const link = document.createElement('a');
-                    link.href = 'src/CV.pdf';
+                    link.href = 'https://portfolio-website-geser-yanga.vercel.app/CV.pdf';
                     link.download = 'CV.pdf';
                     link.click();
+                    link.remove();
                 }}>
                     DOWNLOAD CV
                 </button>

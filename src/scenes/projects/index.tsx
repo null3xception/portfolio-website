@@ -106,7 +106,7 @@ const MyProjects = ({ setSelectedPage }: Props) => {
             MY <span className="font-caveat text-5xl text-black-75">Cases</span>
         </p>
        </motion.div>
-        <div className="mt-32 h-[400px] w-full overflow-x-auto overflow-y-hidden
+        <div className="mt-24 h-[400px] w-full overflow-x-auto overflow-y-hidden
                         ">
           <ul className="w-[2800px] whitespace-nowrap
                         xxl:pl-0
@@ -128,6 +128,12 @@ const MyProjects = ({ setSelectedPage }: Props) => {
                             items-center font-caveat 
                             text-3xl text-black-75">
             These are my finished projects                  
+            </span>
+            <span className="flex justify-center 
+                            items-center font-anonymousPro 
+                            italic
+                            text-sm text-black-75">
+            Scroll right to see more of my projects                
             </span>
             <span className="flex justify-center 
                             items-center font-anonymousPro 
